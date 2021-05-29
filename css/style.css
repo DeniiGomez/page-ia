@@ -1,0 +1,36 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.card-img {
+  height: 550px;
+}
+
+.preview {
+  transition: all ease .4s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card img {
+  cursor: pointer;
+}
+
+.card p {
+	position: absolute;
+	padding: 5px;
+	background-color: #212529;
+	color: #fff;
+	border: 1px solid #6c757d;
+	z-index: 1;
+	font-size: 1rem;
+  border-radius: 4px;
+}
+
+.innerSquare {
+	border: 1px solid #6c757d;
+	z-index: 1;
+	position: absolute;
+  border-radius: 4px;
+}
